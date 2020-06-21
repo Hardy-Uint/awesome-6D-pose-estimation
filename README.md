@@ -1,5 +1,7 @@
 # awesome-6D-pose-estimation
 
+# awesome-6D-pose-estimation
+
 > 作者：Tom Hardy
 >
 > 来源：[3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
@@ -7,8 +9,6 @@
 > 主要基于RGB、RGB-D以及点云数据，估计物体和相机/基准坐标系的关系。
 >
 > 主要有整体方式、霍夫投票方式、Keypoint-based方式、Dense Correspondence方式等。
-
-
 
 ## 实现方式不同
 
@@ -72,14 +72,14 @@
 4. Single-Stage 6D Object Pose Estimation - Yinlin Hu,Pascal Fua,Wei Wang,Mathieu Salzmann. [[Paper\]](https://arxiv.org/pdf/1911.08324.pdf)
 5. Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation -  He Wang, Srinath Sridhar, Jingwei Huang, Julien  Valentin, Shuran Song, Leonidas J. Guibas. [[Paper\]](https://arxiv.org/pdf/1901.02970v1.pdf)
 6. Robust 6D Object Pose Estimation in Cluttered Scenesusing Semantic  Segmentation and Pose Regression Networks - Arul Selvam Periyasamy, Max  Schwarz, and Sven Behnke. [[Paper\]
-7. Implicit 3D Orientation Learning for 6D Object Detection from RGB Images](https://www.ais.uni-bonn.de/papers/IROS_2018_Periyasamy.pdf)
+7. [Implicit 3D Orientation Learning for 6D Object Detection from RGB Images](https://www.ais.uni-bonn.de/papers/IROS_2018_Periyasamy.pdf)
 8. DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion - Chen  Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei,  Silvio Savarese. [[Paper\]](https://arxiv.org/pdf/1901.04780.pdf)
 9. Real-Time Object Pose Estimation with Pose Interpreter Networks- Jimmy  Wu, Bolei Zhou, Rebecca Russell, Vincent Kee, Syler Wagner, Mitchell  Hebert, Antonio Torralba, David M.S. Johnson. [[Paper\]](https://arxiv.org/pdf/1808.01099.pdf)
 10. BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for  Predicting the 3D Poses of Challenging Objects without Using Depth -  Mahdi Rad, Vincent Lepetit. [[Paper\]](https://arxiv.org/abs/1703.10896)
 11. Real-Time Seamless Single Shot 6D Object Pose Prediction - Bugra Tekin, Sudipta N. Sinha, Pascal Fua. [[Paper\]](https://arxiv.org/pdf/1711.08848.pdf)
 12. SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again - Wadim Kehl, Fabian Manhardt, Federico Tombari, Slobodan Ilic, Nassir  Navab. [[Paper\]](https://arxiv.org/pdf/1711.10006.pdf)
 13. Deep Learning of Local RGB-D Patches for 3D Object Detection and 6D Pose Estimation - Wadim Kehl, Fausto Milletari, Federico Tombari, Slobodan  Ilic, Nassir Navab. [[Paper\]](https://arxiv.org/pdf/1607.06038.pdf)
-14. Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image - Thanh-Toan Do, Ming Cai, Trung Pham, Ian Reid. [[Paper]] (https://arxiv.org/pdf/1802.10367.pdf)
+14. [Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image - Thanh-Toan Do, Ming Cai, Trung Pham, Ian Reid.](https://arxiv.org/pdf/1802.10367.pdf)
 
 ## 数据格式不同
 
@@ -99,7 +99,7 @@
 6. BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for  Predicting the 3D Poses of Challenging Objects without Using Depth -  Mahdi Rad, Vincent Lepetit. [[Paper\]](https://arxiv.org/abs/1703.10896)
 7. Real-Time Seamless Single Shot 6D Object Pose Prediction - Bugra Tekin, Sudipta N. Sinha, Pascal Fua. [[Paper\]](https://arxiv.org/pdf/1711.08848.pdf)
 8. SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again - Wadim Kehl, Fabian Manhardt, Federico Tombari, Slobodan Ilic, Nassir  Navab. [[Paper\]](https://arxiv.org/pdf/1711.10006.pdf)
-9. Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image - Thanh-Toan Do, Ming Cai, Trung Pham, Ian Reid. [[Paper]] (https://arxiv.org/pdf/1802.10367.pdf)
+9. [Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image - Thanh-Toan Do, Ming Cai, Trung Pham, Ian Reid.](https://arxiv.org/pdf/1802.10367.pdf)
 
 ### 基于RGB-D方式
 
