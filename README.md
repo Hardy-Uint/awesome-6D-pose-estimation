@@ -6,7 +6,11 @@
 >
 > 主要基于RGB、RGB-D以及点云数据，估计物体和相机/基准坐标系的关系。
 >
-> 有整体方式、霍夫投票方式、Keypoint-based方式、Dense Correspondence方式等。
+> 主要有整体方式、霍夫投票方式、Keypoint-based方式、Dense Correspondence方式等。
+
+## 标注工具
+
+LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 
 ## 实现方式不同
 
