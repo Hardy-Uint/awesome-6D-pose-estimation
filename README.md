@@ -1,15 +1,5 @@
 # awesome-6D-pose-estimation
 
-> 作者：Tom Hardy
->
-> 来源：[3D视觉工坊](https://mp.weixin.qq.com/s?__biz=MzU1MjY4MTA1MQ==&mid=2247484684&idx=1&sn=e812540aee03a4fc54e44d5555ccb843&chksm=fbff2e38cc88a72e180f0f6b0f7b906dd616e7d71fffb9205d529f1238e8ef0f0c5554c27dd7&token=691734513&lang=zh_CN#rd)
->
-> 主要基于RGB、RGB-D以及点云数据，估计物体和相机/基准坐标系的关系。
->
-> 主要有整体方式、霍夫投票方式、Keypoint-based方式、Dense Correspondence方式等。
->
-> 公众号运营者和嘉宾介绍：运营者来自国内一线大厂的算法工程师，深研3D视觉、vSLAM、计算机视觉、点云处理、深度学习、自动驾驶、图像处理、三维重建等领域，特邀嘉宾包括国内外知名高校的博士硕士，旷视、商汤、百度、阿里等就职的算法大佬，欢迎一起交流学习！
-
 ## 标注工具
 
 LabelFusion：https://github.com/RobotLocomotion/LabelFusion
