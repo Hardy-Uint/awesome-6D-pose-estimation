@@ -15,11 +15,14 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 3. Comparing images using the hausdorff distance
 4. Implicit 3d orientation learning for 6d object detection from rgb images.
 5. Instance- and Category-level 6D Object Pose Estimation
+6. se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains. [[Paper\]](https://arxiv.org/abs/2007.13866) [[Github\]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
 
 ### 基于模型
 
 1. Matching RGB Images to CAD Models for Object Pose Estimation - Georgios  Georgakis, Srikrishna Karanam, Ziyan Wu, and Jana Kosecka. [[Paper\]](https://arxiv.org/pdf/1811.07249.pdf)
 2. Deep model-based 6d pose refinement in rgb
+3. Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands - Bowen Wen, Chaitanya Mitash, Sruthi Soorian, Andrew Kimmel, Avishai Sintov and Kostas E. Bekris [[Paper\]](https://arxiv.org/pdf/2003.03518.pdf) [[Github\]](https://github.com/wenbowen123/icra20-hand-object-pose)
+4. se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains. [[Paper\]](https://arxiv.org/abs/2007.13866) [[Github\]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
 
 ### Keypoint-based方式
 
@@ -38,6 +41,7 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 11. Single-Stage 6D Object Pose Estimation - Yinlin Hu,Pascal Fua,Wei Wang,Mathieu Salzmann. [[Paper\]](https://arxiv.org/pdf/1911.08324.pdf)
 12. Estimating 6D Pose From Localizing Designated Surface Keypoints - Zelin  Zhao, Gao Peng, Haoyu Wang, Hao-Shu Fang, Chengkun Li, Cewu Lu. [[Paper\]](https://arxiv.org/pdf/1812.01387v1.pdf)
 13. Learning 6D Object Pose Estimation Using 3D Object Coordinates - Eric  Brachmann, Alexander Krull, Frank Michel, Stefan Gumhold, Jamie Shotton, Carsten Rother. [[Paper\]](https://link.springer.com/content/pdf/10.1007%2F978-3-319-10605-2_35.pdf)
+14. BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models . [[Paper\]](https://arxiv.org/abs/2108.00516) [[Github\]](https://github.com/wenbowen123/BundleTrack)
 
 ### Dense Correspondence/霍夫投票方式
 
@@ -52,11 +56,14 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 9. Normalized object coordinate space for categorylevel 6d object pose and size estimation.
 10. Recovering 6d object pose and predicting next-bestview in the crowd.
 11. PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation -  Sida Peng, Yuan Liu, Qixing Huang, Xiaowei Zhou, Hujun Bao. [[Paper\]](https://arxiv.org/pdf/1812.11788.pdf)
+12. BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models . [[Paper\]](https://arxiv.org/abs/2108.00516) [[Github\]](https://github.com/wenbowen123/BundleTrack)
+
 
 ### 基于分割
 
 1. Segmentation-driven 6D Object Pose Estimation - Yinlin Hu, Joachim Hugonot, Pascal Fua, Mathieu Salzmann. [[Paper\]](https://arxiv.org/pdf/1812.02541.pdf)
 2. Deep Object Pose Estimation for Semantic Robotic Grasping of Household  Objects - Jonathan Tremblay, Thang To, Balakumar Sundaralingam, Yu  Xiang, Dieter Fox, Stan Birchfield. [[Paper\]](https://arxiv.org/pdf/1809.10790.pdf)
+3. BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models . [[Paper\]](https://arxiv.org/abs/2108.00516) [[Github\]](https://github.com/wenbowen123/BundleTrack)
 
 ### 深度学习方式
 
@@ -74,6 +81,9 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 12. SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again - Wadim Kehl, Fabian Manhardt, Federico Tombari, Slobodan Ilic, Nassir  Navab. [[Paper\]](https://arxiv.org/pdf/1711.10006.pdf)
 13. Deep Learning of Local RGB-D Patches for 3D Object Detection and 6D Pose Estimation - Wadim Kehl, Fausto Milletari, Federico Tombari, Slobodan  Ilic, Nassir Navab. [[Paper\]](https://arxiv.org/pdf/1607.06038.pdf)
 14. [Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image - Thanh-Toan Do, Ming Cai, Trung Pham, Ian Reid.](https://arxiv.org/pdf/1802.10367.pdf)
+15. se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains. [[Paper\]](https://arxiv.org/abs/2007.13866) [[Github\]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+16. BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models . [[Paper\]](https://arxiv.org/abs/2108.00516) [[Github\]](https://github.com/wenbowen123/BundleTrack)
+
 
 ## 数据格式不同
 
@@ -82,6 +92,7 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 1. PointFusion
 2. Frustum PointNets
 3. VoteNet
+4. Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands - Bowen Wen, Chaitanya Mitash, Sruthi Soorian, Andrew Kimmel, Avishai Sintov and Kostas E. Bekris [[Paper\]](https://arxiv.org/pdf/2003.03518.pdf) [[Github\]](https://github.com/wenbowen123/icra20-hand-object-pose)
 
 ### 基于RGB方式
 
@@ -101,9 +112,15 @@ LabelFusion：https://github.com/RobotLocomotion/LabelFusion
 2. Holistic and local patch framework for 6D object pose estimation in RGB-D images - Haoruo Zhang, Qixin Cao. [[Paper\]](https://www.sciencedirect.com/science/article/pii/S1077314219300050)
 3. Multi-view 6D Object Pose Estimation and Camera Motion Planning Using  RGBD Images - Juil Sock, S. Hamidreza Kasaei, Luís Seabra Lopes,  Tae-Kyun Kim. [[Paper\]](https://ieeexplore.ieee.org/document/8265470)
 4. Deep Learning of Local RGB-D Patches for 3D Object Detection and 6D Pose Estimation - Wadim Kehl, Fausto Milletari, Federico Tombari, Slobodan  Ilic, Nassir Navab. [[Paper\]](https://arxiv.org/pdf/1607.06038.pdf)
+5. se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains. [[Paper\]](https://arxiv.org/abs/2007.13866) [[Github\]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+6. BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models . [[Paper\]](https://arxiv.org/abs/2108.00516) [[Github\]](https://github.com/wenbowen123/BundleTrack)
+
+
 
 ## 相关源码
-
+- [BundleTrack](https://github.com/wenbowen123/BundleTrack)
+- [se(3)-TrackNet](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+- [Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands](https://github.com/wenbowen123/icra20-hand-object-pose)
 - [HybridPose](https://github.com/chensong1995/HybridPose)
 - [PoseCNN](https://github.com/yuxng/PoseCNN)
 - [Single Shot Pose Estimation](https://github.com/Microsoft/singleshotpose)
